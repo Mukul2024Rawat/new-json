@@ -82,6 +82,6 @@ This e-commerce website provides a marketplace for buyers to browse and purchase
 5. **Simulate a Backend Server**:
     In a new terminal window, execute:
     ```bash
-    json-server --watch ./database/data.json --port 3001
+    npm run json-server
     
-    This starts your JSON Server on port 3001, simulating backend functionalities.
+This starts your JSON Server on port 3001, simulating backend functionalities.
