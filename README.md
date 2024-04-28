@@ -76,10 +76,10 @@ This e-commerce website provides a marketplace for buyers to browse and purchase
 3. **Install Dependencies**:
     ```bash
     npm install
-4.**Start the Development Server**:
+4. **Start the Development Server**:
     ```bash
     npm run dev
-5.**Simulate a Backend Server**:
+5. **Simulate a Backend Server**:
     In a new terminal window, execute:
     ```bash
     json-server --watch ./database/data.json --port 3001
