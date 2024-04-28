@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css">
+    <title>TS-Login</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="myContainer">
+        <div class="formContainer">
+          <form>
+            <h1>Sign In</h1>
+            <div class="socialIcons">
+              <a href="#" class="icon"
+                ><i class="fa-brands fa-google-plus-g"></i
+              ></a>
+              <a href="#" class="icon"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="icon"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <span>or use your email password</span>
+            <input id="email" type="email" placeholder="Email" />
+            <input id="password" type="input" placeholder="Password" />
+            <button id="handleSignIn">Sign In</button>
+          </form>
+        </div>
+        <div class="sideContainer">
+          <h1>Hello, Friend!</h1>
+          <p>Register with your personal details to use all of site features</p>
+          <button id="signUpBtn" onclick="window.location.href='../register/register.html'">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <script src="login.ts"></script>
+  </body>
+</html>
+

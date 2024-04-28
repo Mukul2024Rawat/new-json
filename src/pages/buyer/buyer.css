@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: cursive;
+}
+
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add gap between cards */
+}
+
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  width: 300px; /* Set a fixed width for each card */
+  border-radius: 10px;
+  background-color: #fff; /* White background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.cart-btn {
+  background-color: #8a2be2; /* Purple button color */
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cart-btn:hover {
+  background-color: #6b1d9d; /* Darker purple on hover */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8a2be2; /* Purple background */
+  height: 4rem;
+  border-radius: 5px;
+  padding: 0 2rem;
+}
+
+.nav-image img {
+  height: 3.5rem;
+  width: auto;
+}
+
+.nav-items {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.nav-items a:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}

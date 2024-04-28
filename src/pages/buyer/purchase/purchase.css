@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #purchase_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Spread items evenly horizontally */
+  }
+  
+  .box {
+    width: calc(30% - 20px); /* Set width for each box, adjust as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    transition: all 0.3s ease-in-out; /* Add smooth transition for hover effect */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  p {
+    margin: 0.3rem;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: cursive;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    height: 4rem;
+    border-radius: 5px;
+    padding: 0 2rem;
+  }
+  
+  .nav-image img {
+    height: 3.5rem;
+    width: auto;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .nav-items a:hover {
+    transform: scale(1.05);
+    text-decoration: #fff underline;
+    text-underline-offset: 0.4rem;
+  }
+  
+  .nav-items {
+    display: flex;
+    gap: 1.5rem;
+  }
+  

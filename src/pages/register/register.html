@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css" />
+    <title>TS-Registeration</title>
+  </head>
+  <body>
+    <div class="rWrapper">
+      <div class="rContainer">
+        <div class="rFormContainer">
+          <form id="signupForm">
+            <h1>Create Account</h1>
+            <span>or use your email for registeration</span>
+            <div class="field">
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="First name"
+              />
+              <span class="error" id="firstNameError"></span>
+            </div>
+
+            <div class="field">
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Last name"
+              />
+              <span class="error" id="lastNameError"></span>
+            </div>
+
+            <div class="field">
+              <input type="text" id="email" name="email" placeholder="Email" />
+              <span class="error" id="emailError"></span>
+            </div>
+            <div class="field">
+              <input
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Address"
+              />
+              <span class="error" id="addressError"></span>
+            </div>
+            <div class="field">
+              <input
+                type="text"
+                id="password"
+                name="password"
+                placeholder="Password"
+              />
+              <span class="error" id="passwordError"></span>
+            </div>
+
+            <div class="field">
+              <input
+                type="text"
+                id="mobile"
+                name="phone"
+                placeholder="Phone number"
+              />
+              <span class="error" id="mobileError"></span>
+            </div>
+            <div class="gender">
+              <div class="genderCategory">
+                <div class="radioBtn">
+                  <label for="gender" name="gender">Gender:</label>
+                </div>
+                <div class="radioBtn">
+                  <input type="radio" id="male" name="gender" value="male" />
+                  <label for="male">Male</label>
+                </div>
+                <div class="radioBtn">
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                  />
+                  <label for="female">Female</label>
+                </div>
+                <div class="radioBtn">
+                  <input type="radio" id="others" name="gender" value="other" />
+                  <label for="others">Others</label>
+                </div>
+              </div>
+              <div>
+                <span class="error" id="genderError"></span>
+              </div>
+            </div>
+            <div class="user-selection">
+              Login As:
+              <div>
+                <input type="radio" id="buyer" name="login_as" />
+                <label for="buyer">buyer</label>
+              </div>
+              <div>
+                <input type="radio" id="seller" name="login_as" />
+                <label for="seller">seller</label>
+              </div>
+              <span class="error" id="loginAs-error"></span>
+            </div>
+            <button type="submit" id="signUpBtn">Sign Up</button>
+          </form>
+        </div>
+
+        <div class="rSideContainer">
+          <h1>Welcome Back!</h1>
+          <p>Already have an account?</p>
+          <button
+            class="loginBtn"
+            id="loginBtn"
+            onclick="window.location.href='../login/login.html'"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="registration.ts"></script>
+  </body>
+</html>

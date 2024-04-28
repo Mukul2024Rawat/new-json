@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cart_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+box {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  max-width: fit-content;
+  border-radius: 10px;
+  background-color: aliceblue;
+
+}
+
+box:hover {
+  transform: scale(1.05);
+}
+
+p {
+  margin: 0.3rem;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: cursive;
+}
+
+button {
+  padding: 0.5rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.purchase-btn {
+  background-color: green
+}
+
+.delete-btn {
+  background-color: rgb(207, 64, 64);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  height: 4rem;
+  border-radius: 5px;
+  padding: 0 2rem;
+}
+
+.nav-image img {
+  height: 3.5rem;
+  width: auto;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-items a:hover {
+  transform: scale(1.05);
+  text-decoration: #fff underline;
+  text-underline-offset: 0.4rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 1.5rem;
+}

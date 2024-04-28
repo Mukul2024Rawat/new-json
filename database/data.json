@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "id": "e507",
+      "firstName": "Mukul",
+      "lastName": "Rawat",
+      "email": "mukulsinghrawat819@gmail.com",
+      "password": "Haridwar@2024",
+      "address": "Kankhal",
+      "phoneNumber": "6395668895",
+      "gender": "male",
+      "loginAs": "seller"
+    },
+    {
+      "id": "e6ab",
+      "firstName": "Mukul",
+      "lastName": "Rawat",
+      "email": "mukulrawat819@gmail.com",
+      "password": "Haridwar@2024",
+      "address": "Kankhal",
+      "phoneNumber": "6395668895",
+      "gender": "male",
+      "loginAs": "seller"
+    },
+    {
+      "id": "3648",
+      "firstName": "marvin",
+      "lastName": "Rawat",
+      "email": "mrawatji786@gmail.com",
+      "password": "Haridwar@2024",
+      "address": "Kankhal",
+      "phoneNumber": "6395668895",
+      "gender": "male",
+      "loginAs": "buyer"
+    },
+    {
+      "id": "1317",
+      "firstName": "Marvin",
+      "lastName": "singh",
+      "email": "jhr@gmail.com",
+      "password": "Haridwar@2024",
+      "address": "Kankhal",
+      "phoneNumber": "6395668895",
+      "gender": "male",
+      "loginAs": "buyer"
+    }
+  ],
+  "products": [
+    {
+      "id": "d98f",
+      "productName": "pen",
+      "description": "pen",
+      "brand": "heh",
+      "price": "500",
+      "offerPrice": "100",
+      "stock": "200",
+      "availableStock": "167",
+      "sellerId": "e507"
+    },
+    {
+      "id": "ef21",
+      "productName": "pencil",
+      "description": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "stock": "250",
+      "availableStock": "133",
+      "sellerId": "e507"
+    },
+    {
+      "id": "aedd",
+      "productName": "book",
+      "description": "book",
+      "brand": "book",
+      "price": "250",
+      "offerPrice": "140",
+      "stock": "180",
+      "availableStock": "2",
+      "sellerId": "e6ab"
+    },
+    {
+      "id": "b58d",
+      "productName": "book",
+      "description": "bookdff dfdfd dfdf",
+      "brand": "dkdkkld",
+      "price": "5000",
+      "offerPrice": "500",
+      "stock": "100",
+      "availableStock": "90",
+      "sellerId": "e6ab"
+    }
+  ],
+  "cart": [],
+  "purchase": [
+    {
+      "id": "c0a8",
+      "buyerId": "3648",
+      "buyerProduct": "book",
+      "brand": "book",
+      "price": "250",
+      "offerPrice": "140",
+      "quantity": 20,
+      "productId": "aedd"
+    },
+    {
+      "id": "879d",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 10,
+      "productId": "ef21"
+    },
+    {
+      "id": "3762",
+      "buyerId": "3648",
+      "buyerProduct": "pen",
+      "brand": "heh",
+      "price": "500",
+      "offerPrice": "100",
+      "quantity": 10,
+      "productId": "d98f"
+    },
+    {
+      "id": "f382",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 1,
+      "productId": "ef21"
+    },
+    {
+      "id": "37e0",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 1,
+      "productId": "ef21"
+    },
+    {
+      "id": "c69b",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 1,
+      "productId": "ef21"
+    },
+    {
+      "id": "c36f",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 1,
+      "productId": "ef21"
+    },
+    {
+      "id": "3347",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 10,
+      "productId": "ef21"
+    },
+    {
+      "id": "4e93",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "200",
+      "offerPrice": "50",
+      "quantity": 10,
+      "productId": "ef21"
+    },
+    {
+      "id": "409e",
+      "buyerId": "3648",
+      "buyerProduct": "pen",
+      "brand": "heh",
+      "price": "100",
+      "offerPrice": "100",
+      "quantity": 10,
+      "productId": "d98f"
+    },
+    {
+      "id": "b150",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "50",
+      "offerPrice": "50",
+      "quantity": 10,
+      "productId": "ef21"
+    },
+    {
+      "id": "6078",
+      "buyerId": "3648",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "50",
+      "offerPrice": "50",
+      "quantity": 34,
+      "productId": "ef21"
+    },
+    {
+      "id": "ce91",
+      "buyerId": "1317",
+      "buyerProduct": "pen",
+      "brand": "heh",
+      "price": "100",
+      "offerPrice": "100",
+      "quantity": 13,
+      "productId": "d98f"
+    },
+    {
+      "id": "d6ce",
+      "buyerId": "1317",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "50",
+      "offerPrice": "50",
+      "quantity": 17,
+      "productId": "ef21"
+    },
+    {
+      "id": "ebc4",
+      "buyerId": "1317",
+      "buyerProduct": "book",
+      "brand": "book",
+      "price": "140",
+      "offerPrice": "140",
+      "quantity": 5,
+      "productId": "aedd"
+    },
+    {
+      "id": "f266",
+      "buyerId": "1317",
+      "buyerProduct": "book",
+      "brand": "book",
+      "price": "140",
+      "offerPrice": "140",
+      "quantity": 153,
+      "productId": "aedd"
+    },
+    {
+      "id": "274e",
+      "buyerId": "1317",
+      "buyerProduct": "pencil",
+      "brand": "pencil",
+      "price": "50",
+      "offerPrice": "50",
+      "quantity": 22,
+      "productId": "ef21"
+    }
+  ]
+}

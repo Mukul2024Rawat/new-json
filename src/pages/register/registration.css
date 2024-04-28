@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+.rWrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rContainer {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.45);
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+}
+
+.rContainer p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+.rContainer a {
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 10px 0 0;
+}
+
+.rContainer button {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 10em;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.rContainer button:hover {
+    transform: scale(1.05);
+}
+.rFormContainer form{
+   width: 80%;
+}
+.rFormContainer .field{
+   width: 100%;
+}
+.rFormContainer .field input{
+    background-color: #eee;
+    border: none;
+    margin-top: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.rFormContainer input:hover {
+    /* transform: scale(1.03); */
+    border: 0.5px solid #333;
+}
+
+.rFormContainer {
+    height: auto;
+    transition: all 0.6s ease-in-out;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rFormContainer span{
+   font-size: 12px;
+}
+
+.rFormContainer .error{
+   font-size: 11px;
+   color: red;
+}
+.gender{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.genderCategory{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #a7a7a7;
+    gap: 1rem;
+    display: flex;
+    width: 100%;
+}
+.radioBtn{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: #333;
+}
+ 
+.forgot a:hover{
+    color: black;
+    font-weight: 500;
+}
+.rFormContainer .socialIcons a {
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-grid;
+    width: 2em;
+    height: 2em;
+    margin: 7px;
+    align-items: center;
+}
+
+.rFormContainer .socialIcons a:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
+.rSideContainer {
+    width: 50%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    /* border-radius: 30% 20px 20px 20%; */
+    border-radius: 20px 30% 20% 20px;
+    background-color: #512da8;
+    background: linear-gradient(to left, #5c6bc0, #512da8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.rSideContainer p {
+    text-align: center;
+}
+
+.rSideContainer button:hover {
+    background-color: white;
+    color: #512da8;
+}
+
+@media(max-width: 1000px) {
+    .rContainer {
+        width: 70%;
+    }
+}
+
+@media(max-width: 768px) {
+    .rContainer {
+        width: 80%;
+    }
+    .genderCategory{
+        font-size: smaller;
+        gap: 0.7em;
+    }
+}
+
+@media(max-width: 550px) {
+    .rContainer {
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .rFormContainer {
+        margin: 4% 0 ;
+        width: 100%;
+        height: 70%;
+        border-radius: 20px;
+    }
+    .rSideContainer {
+        margin: 4% 0 ;
+        width: 100%;
+        height: 30%;
+        border-radius: 20px;
+        font-size: x-small;
+    }
+    .rFormContainer form{
+      width: 100%;
+    }
+    .rSideContainer{
+      width: 90%;
+    }
+    .socialIcons a{
+      margin: 0;
+    }
+    .rFormContainer input{
+      font-size: smaller;
+    }
+    .rContainer button, .rContainer input {
+        width: 90%;
+    }
+    .genderCategory{
+        font-size: x-small;
+        gap: 0.5em;
+    }
+}
+
+@media(max-width: 300px){
+    .rFormContainer{
+        height: 75%;
+    }
+    .rSideContainer{
+        height: 25%;
+    }
+}
+
+.user-selection{
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;    
+}

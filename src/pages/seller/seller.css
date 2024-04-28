@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  button {
+    margin-bottom: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  #editProductForm {
+    margin-top: 20px;
+  }
+  /* Styles for editable fields */
+  .editable input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  .save-btn, .edit-btn, .delete-btn {
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .save-btn:hover, .edit-btn:hover, .delete-btn:hover {
+    background-color: #45a049;
+  }
+  .delete-btn {
+    background-color: #f44336;
+  }
+  .delete-btn:hover {
+    background-color: #da190b;
+  }
+  .product-add{
+    padding: 1%rem;
+  }
+
+  .add-btn {
+    padding: 1rem 2rem;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 0.4rem;
+    background-color: #512da8;
+    color: #ffffff;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .add-btn:hover {
+    color: #512da8;
+    background-color: #ffffff;
+    border: 1px solid #512da8;
+  }
+
+  #logout-btn {
+    padding: 0.5rem 3rem;
+    background-color: #ffffff;
+    color: #512da8;
+    border: 1px solid #512da8;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 90%;
+    font-weight: 800;
+    font-size: large;
+    border-radius: 0.4rem;
+  }
+
+  #logout-btn:hover {
+    background-color: #512da8;
+    color: #ffffff;
+  }
+  h1{
+    text-decoration: underline;
+  }
